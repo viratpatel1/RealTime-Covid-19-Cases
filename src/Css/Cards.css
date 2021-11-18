@@ -1,0 +1,18 @@
+.Card {
+  display: flex;
+  margin: 2% 0 0 0;
+  justify-content: space-around;
+}
+.InnerCard {
+  /* box-shadow: 12px 12px 2px 1px rgba(241, 26, 26, 0.979); */
+}
+@media screen and (max-width: 500px) {
+  .Card {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0 0 0;
+  }
+  .InnerCard {
+    margin: 10px 0;
+  }
+}
